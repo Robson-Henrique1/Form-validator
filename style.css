@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right,#3f37c9,#4cc9f0);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-box {
+    background: white;
+    width: 470px;
+    height: 600px;
+
+    box-sizing: border-box;
+    border-radius: 9px;
+    box-shadow: 60px -16px rgba(0, 55, 128, 0.63);
+}
+.bg-text{
+    height: 70px;
+    background: rgb(248, 227, 227);
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.text-title{
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(37, 37, 34);
+    font-size: 30px;
+    text-align: center;
+}
+.form{
+    padding: 20px;
+}
+
+.Control-form{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.Control-form label{
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: right;
+    
+}
+
+.Control-form input{
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-left: 9%;
+    margin-bottom: 10%;
+    width: 80%;
+    padding: 10px;
+    border: solid 1px rgb(209, 208, 208);
+}
+.Control-form small{
+    position: relative;
+    bottom:50px ;
+    visibility: hidden;
+    left: 45px;
+}
+
+.label-style1{
+    margin-left: 10%;
+}
+.label-style2{
+    position: absolute;
+    left: 10%;
+    bottom: 72%;
+}
+.label-style3{
+    position: absolute;
+    left: 10%;
+    bottom: 50%;
+}
+.label-style4{
+    position: absolute;
+    left: 10%;
+    bottom: 27%;
+}
+.btn-1{
+    position: relative;
+    background-color: #fc00ff;
+    border: 2px solid #fc00ff;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 45px;
+    bottom: 10%;
+    width: 370px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form-control.error input{
+    border-color: red;
+}
+.form-control.error small{
+    visibility: visible;
+    color: red;
+}
+.form-control.success input{
+    border-color: green;
+}
